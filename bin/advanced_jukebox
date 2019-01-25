@@ -11,6 +11,7 @@ my_songs = {
   "Wolf" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\05.mp3',
   "Blue" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\06.mp3',
   "Graduation Failed" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\07.mp3'
+  "downward_spiral" => 'C:\Users\Yayzik\Desktop\downward_spiral.wav'
 }
 
 run(my_songs)
