@@ -40,7 +40,7 @@ def play(my_songs)
 
       file_path = my_songs[song_string]
 
-      system("start C:\\Users\\Yayzik\\Desktop\\downward_spiral.wav")
+      system("start C:\Users\Yayzik\Desktop\downward_spiral.wav")
     else
       puts "Invalid input, please try again"
     end
