@@ -44,7 +44,8 @@ def play(my_songs)
   my_songs.each_key do |song_string|
     if song_string.include?(user_input)
       puts "Playing #{song_string}"
-      system "open #{my_songs[song_string]}"
+      file_path = my_songs[song_string]
+      system "open #{file_path}"
     else
       puts "Invalid input, please try again"
     end
