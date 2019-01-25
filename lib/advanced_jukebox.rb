@@ -39,6 +39,7 @@ def play(my_songs)
       puts "Playing #{song_string}"
 
       file_path = my_songs[song_string]
+      binding.pry
       system("start #{file_path}")
     else
       puts "Invalid input, please try again"
