@@ -24,7 +24,7 @@ end
 
 def list(my_songs)
   counter = 1
-  songs.each_key do |the_song|
+  my_songs.each_key do |the_song|
     puts "#{counter}. #{the_song}"
     counter += 1
   end
@@ -39,7 +39,16 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
-
+  puts "Please enter a song name or number:"
+  user_input = gets.chomp
+  my_songs.each_key do |song_string|
+    if song_string.include?(user_input)
+      puts "Playing #{song_string}"
+      system "open #{my_songs[song_string]}"
+    else
+      puts "Invalid input, please try again"
+    end
+  end
 end
 
 def exit_jukebox
