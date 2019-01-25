@@ -2,6 +2,8 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
+require "pry"
+
 my_songs = {
   "Go Go GO" => 'C:/',
   "LiberTeens" => 'C:/',
@@ -43,6 +45,7 @@ def play(my_songs)
   user_input = gets.chomp
   my_songs.each_key do |song_string|
     if song_string.include?(user_input)
+      binding.pry
       puts "Playing #{song_string}"
       file_path = my_songs[song_string]
       system "open #{file_path}"
