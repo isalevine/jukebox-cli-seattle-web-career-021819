@@ -45,7 +45,6 @@ def play(my_songs)
   user_input = gets.chomp
   my_songs.each_key do |song_string|
     if song_string.include?(user_input)
-      binding.pry
       puts "Playing #{song_string}"
       file_path = my_songs[song_string]
       system "open #{file_path}"
