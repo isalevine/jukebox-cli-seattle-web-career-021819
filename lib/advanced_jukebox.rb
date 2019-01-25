@@ -5,9 +5,9 @@
 require "pry"
 
 my_songs = {
-  "Go Go GO" => 'C:/',
-  "LiberTeens" => 'C:/',
-  "Hamburg" =>  'C:/Users/Yayzik/.atom/.learn-ide/home/classy-zombie-8275/jukebox-cli-seattle-web-career-021819/audio/Emerald-Park/03.mp3',
+  "Go Go GO" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\01.mp3',
+  "LiberTeens" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\02.mp3',
+  "Hamburg" =>  'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\03.mp3',
   "Guiding Light" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\04.mp3',
   "Wolf" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\05.mp3',
   "Blue" => 'C:\Users\Yayzik\.atom\.learn-ide\home\classy-zombie-8275\jukebox-cli-seattle-web-career-021819\audio\Emerald-Park\06.mp3',
